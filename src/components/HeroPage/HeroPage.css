@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.hero_containers {
+  background: linear-gradient(360deg, #ffffff -4.58%, #ffffff 102.22%);
+  height: 100vh;
+  border-bottom: 0.1vh solid black;
+  margin: 0;
+  padding-top: 1.5vh;
+}
+
+.Illustration {
+  /* position: relative; */
+  margin-left: auto;
+  width: 55vw;
+  height: 83vh;
+  background-image: url('../../images/HeroPage/Illustration.png');
+  background-repeat: no-repeat;
+  background-size: 55vw 83vh;
+  background-position-x: center;
+}
+
+/* @media all and (max-width: 1200px) {
+  .Illustration {
+    width: 60vw;
+    height: 80vh;
+    background-size: 60vw 80vh;
+  }
+}
+
+@media all and (max-width: 1000px) {
+  .Illustration {
+    width: 67vw;
+    height: 80vh;
+    background-size: 67vw 80vh;
+  }
+}
+
+@media all and (max-width: 700px) {
+  .Illustration {
+    margin-top: 20px;
+    width: 55vw;
+    height: 55vh;
+    background-size: 55vw 50vh;
+  }
+} */

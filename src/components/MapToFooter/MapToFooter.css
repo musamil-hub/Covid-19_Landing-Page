@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.mtf_container {
+  background: linear-gradient(
+    360deg,
+    rgba(255, 241, 241, 0.5) 0%,
+    rgba(255, 241, 241, 0) 198.69%
+  );
+  /* border: 1px solid red; */
+}
+.footer_path1 {
+  margin-left: 83.6vw;
+  margin-top: -60vh;
+  position: absolute;
+}
+.footer_path2 {
+  margin-left: 89.41vw;
+  margin-top: -50vh;
+  position: absolute;
+}

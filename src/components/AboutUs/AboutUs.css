@@ -1,0 +1,34 @@
+* {
+  /* border: 1px solid black; */
+  margin: 0;
+  padding: 0;
+}
+.au_Contaniner {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  /* border: 1px solid black; */
+}
+.au_path1 {
+  background-image: url('../../images/AboutUs/path1.png');
+  background-repeat: no-repeat;
+  background-size: 11vw 44vh;
+  margin-left: auto;
+  width: 11vw;
+  height: 44vh;
+
+  /* border: 1px solid rgb(72, 158, 46); */
+  margin-top: -50vh;
+}
+
+.au_path2 {
+  background-image: url('../../images/AboutUs/path2.png');
+  background-repeat: no-repeat;
+  background-size: 9.5vw 20vh;
+  margin-left: auto;
+  width: 9.5vw;
+  height: 20vh;
+  /* border: 1px solid red; */
+  margin-right: 2vw;
+  margin-top: -10vh;
+}

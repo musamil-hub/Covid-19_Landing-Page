@@ -1,0 +1,182 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.au_pathvirus-img {
+  background-image: url('../../../../images/Contagion/pathvirus.png');
+  background-repeat: no-repeat;
+  background-size: 12vw 25vh;
+  background-position-x: 1.7vw;
+  background-position-y: 38vh;
+}
+
+.cc_container {
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  width: 82vw;
+  margin-top: 6vh;
+  /* border: 1px solid rgb(0, 0, 0); */
+}
+
+/* div Boxs */
+.Wear-mask_1 {
+  width: 25vw;
+  height: 65vh;
+  background: #ffffff;
+  box-shadow: 0px 35px 87px rgba(0, 0, 0, 0.11);
+  border-radius: 0.5vmax;
+}
+.Wear-mask_1:hover {
+  border-bottom: 0.5vw solid tomato;
+  transform: scale(1.01);
+}
+
+.Wear-mask_img {
+  /* background-image: url('../../../../images/Contagion/WearMask.png'); */
+  /* background-size: 15.5vw 30vh;
+  background-repeat: no-repeat; */
+  margin: auto;
+  width: 15.5vw;
+  height: 30vh;
+  margin-top: 5vh;
+}
+.Wear-mask_img:hover {
+  transform: scale(1.05);
+}
+
+.Wear-mask_contents {
+  margin: auto;
+  margin-top: 4vh;
+  text-align: center;
+}
+.Wear-mask_content1 {
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 1.6vmax;
+  line-height: 4vmax;
+  /* identical to box height, or 53px */
+
+  text-transform: capitalize;
+
+  color: #035755;
+}
+.Wear-mask_content2 {
+  margin: auto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.95vmax;
+  line-height: 1.8vmax;
+  text-align: center;
+  text-transform: capitalize;
+  /* width: 22vw; */
+  color: #4b4f51;
+}
+
+/* div image 2 */
+
+.Hand-wash_2 {
+  width: 25vw;
+  height: 65vh;
+  background: #ffffff;
+  box-shadow: 0px 35px 87px rgba(0, 0, 0, 0.11);
+  border-radius: 0.5vmax;
+}
+.Hand-wash_2:hover {
+  border-bottom: 0.5vw solid tomato;
+  transform: scale(1.01);
+}
+
+.Hand-wash_img {
+  background-image: url('../../../../images/Contagion/HandWash.png');
+  background-size: 15.5vw 30vh;
+  background-repeat: no-repeat;
+  margin: auto;
+  width: 15.5vw;
+  height: 30vh;
+  margin-top: 5vh;
+}
+.Hand-wash_img:hover {
+  transform: scale(1.05);
+}
+
+.Hand-wash_contents {
+  margin: auto;
+  margin-top: 4vh;
+  text-align: center;
+}
+.Hand-wash_content1 {
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 1.6vmax;
+  line-height: 4vmax;
+
+  text-transform: capitalize;
+
+  color: #035755;
+}
+.Hand-wash_content2 {
+  margin: auto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.95vmax;
+  line-height: 1.8vmax;
+  text-align: center;
+  text-transform: capitalize;
+  width: 20vw;
+  color: #4b4f51;
+}
+
+/* div image 3 */
+.Nose-rag_3 {
+  width: 25vw;
+  height: 65vh;
+  background: #ffffff;
+  box-shadow: 0px 35px 87px rgba(0, 0, 0, 0.11);
+  border-radius: 0.5vmax;
+}
+.Nose-rag_3:hover {
+  border-bottom: 0.5vw solid tomato;
+  transform: scale(1.01);
+}
+
+.Nose-rag_img {
+  background-image: url('../../../../images/Contagion/NoseRag.png');
+  background-size: 15.5vw 30vh;
+  background-repeat: no-repeat;
+  margin: auto;
+  width: 15.5vw;
+  height: 30vh;
+  margin-top: 5vh;
+}
+.Nose-rag_img:hover {
+  transform: scale(1.05);
+}
+
+.Nose-rag_contents {
+  margin: auto;
+  margin-top: 4vh;
+  text-align: center;
+}
+.Nose-rag_content1 {
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 1.6vmax;
+  line-height: 4vmax;
+
+  text-transform: capitalize;
+
+  color: #035755;
+}
+.Nose-rag_content2 {
+  margin: auto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.95vmax;
+  line-height: 1.8vmax;
+  text-align: center;
+  text-transform: capitalize;
+  width: 20vw;
+  color: #4b4f51;
+}

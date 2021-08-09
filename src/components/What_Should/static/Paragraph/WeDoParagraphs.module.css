@@ -1,0 +1,9 @@
+.paragraph {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.96vmax;
+  line-height: 4vh;
+  text-transform: capitalize;
+
+  color: #4b4f51;
+}

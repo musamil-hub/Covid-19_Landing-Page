@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.cg_containers {
+  width: 98.7vw;
+  height: 100vh;
+  /* border: 1px solid black; */
+}
+.cg_contents {
+  margin: auto;
+  /* width: 93.5vw; */
+}

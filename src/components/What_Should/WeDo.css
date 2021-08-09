@@ -1,0 +1,30 @@
+* {
+  /* border: 1px solid black; */
+  margin: 0;
+  padding: 0;
+}
+
+.wd_container {
+  margin: 0;
+  padding-top: 1.9vh;
+  width: 98.6vw;
+  height: 263vh;
+  /* border: 1px solid black; */
+}
+.wd_path1 {
+  width: 9vw;
+  position: absolute;
+  margin-top: -203vh;
+}
+.wd_path2 {
+  width: 7vw;
+  position: absolute;
+  margin-left: 91vw;
+  margin-top: -66vh;
+}
+.wd_path3 {
+  width: 7.8vw;
+  position: absolute;
+  margin-left: 90.9vw;
+  margin-top: -50vh;
+}

@@ -1,0 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.sy_container {
+  width: 98.7vw;
+  height: 115vh;
+  /* border: 1px solid black; */
+}

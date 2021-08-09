@@ -1,0 +1,32 @@
+.si_container {
+  align-content: center;
+  margin: auto;
+  align-items: center;
+}
+.si_center {
+  /* position: absolute; */
+  margin: auto;
+  width: 60%;
+}
+.si_center-img {
+  position: absolute;
+  margin: auto;
+  width: 57%;
+  object-fit: contain;
+}
+.si_left-img {
+  position: absolute;
+  margin: auto;
+  width: 9.4%;
+  object-fit: contain;
+  margin-left: 5vw;
+  margin-top: 54vh;
+}
+.si_right-img {
+  position: absolute;
+  margin: auto;
+  width: 9.4%;
+  object-fit: contain;
+  margin-left: 85vw;
+  margin-top: 77vh;
+}

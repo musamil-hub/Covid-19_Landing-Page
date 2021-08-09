@@ -1,0 +1,29 @@
+.sh_header {
+  /* width: 30vw; */
+  text-align: center;
+  font-family: 'Red Hat Display', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2.8vmax;
+  line-height: 6vh;
+  text-transform: capitalize;
+  color: #035755;
+  margin-bottom: 2.5vh;
+}
+.sh_header span {
+  font-weight: 600;
+  font-size: 1.7vmax;
+  text-transform: capitalize;
+  color: #fa5652;
+}
+.sh_paragraph {
+  text-align: center;
+  margin: auto;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.96vmax;
+  line-height: 4vh;
+  text-transform: capitalize;
+
+  color: #4b4f51;
+}
