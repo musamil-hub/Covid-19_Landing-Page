@@ -3,6 +3,7 @@ import './ContagionContents.css';
 import WearMask from '../../../../images/Contagion/WearMask.png';
 import HandWash from '../../../../images/Contagion/HandWash.png';
 import NoseRag from '../../../../images/Contagion/NoseRag.png';
+import Paragraph from '../../../static/Paragraph/Paragraph';
 
 const Dummy = [
   {
@@ -33,7 +34,11 @@ const Dummy = [
 const ContagionContents = () => {
   return (
     <div className='au_pathvirus-img'>
-      <div className='cc_container'>
+      <div
+        className='cc_container'
+        data-aos='zoom-in-up'
+        data-aos-duration='2000'
+      >
         {Dummy.map((data, idx) => (
           <div className='Wear-mask_1' key={idx}>
             <div className='Wear-mask_img'>
@@ -46,14 +51,14 @@ const ContagionContents = () => {
                 }}
               />
             </div>
-            <div className='Wear-mask_contents'>
+            <div
+              className='Wear-mask_contents'
+              data-aos='fade-up'
+              data-aos-anchor-placement='center-bottom'
+              data-aos-duration='2000'
+            >
               <div className='Wear-mask_content1'>{data.title}</div>
-              <div
-                className='Wear-mask_content2'
-                style={{ width: `${data.width}` }}
-              >
-                {data.content}
-              </div>
+              <Paragraph width={data.width} margin paragraph={data.content} />
             </div>
           </div>
         ))}

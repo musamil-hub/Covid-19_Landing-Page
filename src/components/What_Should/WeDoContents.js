@@ -1,49 +1,63 @@
 import React from 'react';
-import WeDoParagraphs from './static/Paragraph/WeDoParagraphs';
-import WeDoHeading from './static/Heading/WeDoHeading';
+
 import './WeDoContents.css';
-import Images from './static/ImageTag/Images';
+import Images from './ImageTag/Images';
+import Headings from '../static/Headings/Headings';
+import Paragraph from '../static/Paragraph/Paragraph';
 
-const WeDoContents = ({ data, onLeft }) => {
-  const imgLeft = onLeft ? false : true;
-
+const WeDoContents = ({ data, index }) => {
+  const imgLeft = index % 2 === 0 ? true : false;
   return (
     <div className='wc_container'>
       {imgLeft && (
-        <>
+        <div
+          style={{ display: 'flex' }}
+          data-aos='fade-up'
+          data-aos-easing='ease-in-sine'
+        >
           <div className='wc_contents1'>
-            <Images icons={data.icons} onIcon />
+            <Images count={data.count} onIcon />
             <div className='wc_content2' style={{ width: '32vw' }}>
-              <WeDoHeading title={data.title} />
-              <WeDoParagraphs
-                para1={data.para1}
-                para2={data.para2}
-                paraWidth={data.paraWidth}
+              <Headings heading={data.datas.title} Left small normal />
+              <Paragraph
+                paragraph2={{
+                  para1: `${data.datas.para1}`,
+                  para2: `${data.datas.para2}`,
+                }}
+                width={data.datas.paraWidth}
+                Left
               />
             </div>
           </div>
           <div className='wc_contents2'>
-            <Images images={data.images} />
+            <Images images={data.datas.images} />
           </div>
-        </>
+        </div>
       )}
       {!imgLeft && (
-        <>
+        <div
+          style={{ display: 'flex' }}
+          data-aos='fade-up'
+          data-aos-easing='ease-in-sine'
+        >
           <div className='wc_contents2'>
-            <Images images={data.images} onLeft />
+            <Images images={data.datas.images} onLeft />
           </div>
           <div className='wc_contents1'>
-            <Images icons={data.icons} onIcon />
+            <Images count={data.count} onIcon count={data.count} />
             <div className='wc_content2' style={{ width: '32vw' }}>
-              <WeDoHeading title={data.title} />
-              <WeDoParagraphs
-                para1={data.para1}
-                para2={data.para2}
-                paraWidth={data.paraWidth}
+              <Headings heading={data.datas.title} Left small normal />
+              <Paragraph
+                paragraph2={{
+                  para1: `${data.datas.para1}`,
+                  para2: `${data.datas.para2}`,
+                }}
+                width={data.datas.paraWidth}
+                Left
               />
             </div>
           </div>
-        </>
+        </div>
       )}
     </div>
   );

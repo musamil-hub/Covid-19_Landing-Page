@@ -1,19 +1,14 @@
 import React from 'react';
+import Title from '../Title/Title';
+import Headings from '../Headings/Headings';
 import classes from './Heading.module.css';
+import Paragraph from '../Paragraph/Paragraph';
 const Heading = ({ data }) => {
   return (
     <>
-      <div className={classes.sh_header}>
-        <span>{data.title}</span>
-        <br />
-        {data.content}
-      </div>
-      <div
-        className={classes.sh_paragraph}
-        style={{ width: `${data.width_para}` }}
-      >
-        {data.paragraph}
-      </div>
+      <Title />
+      <Headings heading={data.content} />
+      <Paragraph data={data} />
     </>
   );
 };

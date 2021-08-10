@@ -43,7 +43,7 @@
   margin-top: 5vh;
 }
 .Wear-mask_img:hover {
-  transform: scale(1.05);
+  transform: scale(1.01);
 }
 
 .Wear-mask_contents {
@@ -61,17 +61,6 @@
   text-transform: capitalize;
 
   color: #035755;
-}
-.Wear-mask_content2 {
-  margin: auto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 0.95vmax;
-  line-height: 1.8vmax;
-  text-align: center;
-  text-transform: capitalize;
-  /* width: 22vw; */
-  color: #4b4f51;
 }
 
 /* div image 2 */

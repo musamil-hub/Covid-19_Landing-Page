@@ -1,8 +1,7 @@
 import React, { useState, useEffect } from 'react';
 // import
 import './LiveReport.css';
-
-import WeDoHeading from '../../../What_Should/static/Heading/WeDoHeading';
+import Headings from '../../../static/Headings/Headings';
 import Decrease from '../../../../images/Map/Pagination/decrease.png';
 import Increase from '../../../../images/Map/Pagination/increase.png';
 // Images
@@ -63,7 +62,9 @@ const LiveReport = () => {
   return (
     <div className='lr_container'>
       <div className='lr_heading'>
-        <WeDoHeading title='Live Reports' />
+        <div style={{ width: '28vh' }}>
+          <Headings heading='Live Reports' Left small normal />
+        </div>
         <div className='pagination_button'>
           <button
             className='decrease'
@@ -82,22 +83,25 @@ const LiveReport = () => {
       </div>
       <div className='report_lists'>
         <table className='table_list'>
-          <tbody>
-            {loading && <h3>Loading..</h3>}
-            {!loading &&
-              currentPosts.map(data => (
-                <tr key={`${data.percentage}`}>
-                  <td className='table_img'>
-                    <img src={data.icon} />
-                  </td>
-                  <td className='table_title'>{data.name}</td>
-                  <td className='table_percentage'>{data.percentage}</td>
-                  <td className='table_flow'>
-                    <img src={data.flow} width='70%' />
-                  </td>
-                </tr>
-              ))}
-          </tbody>
+          {loading && <h3>Loading..</h3>}
+          {!loading &&
+            currentPosts.map(data => (
+              <tr
+                key={`${data.percentage}`}
+                data-aos='fade-up'
+                data-aos-easing='linear'
+                data-aos-delay='300'
+              >
+                <td className='table_img'>
+                  <img src={data.icon} width='90%' />
+                </td>
+                <td className='table_title'>{data.name}</td>
+                <td className='table_percentage'>{data.percentage}</td>
+                <td className='table_flow'>
+                  <img src={data.flow} width='70%' />
+                </td>
+              </tr>
+            ))}
         </table>
       </div>
     </div>

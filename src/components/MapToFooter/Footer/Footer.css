@@ -13,7 +13,6 @@
   margin: auto;
   width: 82vw;
   height: 17.5vh;
-  /* border: 1px solid black; */
 }
 .footer_contents {
   display: flex;
@@ -54,6 +53,9 @@
   color: #415e56;
 }
 .social {
-  /* border: 1px solid black; */
   width: 70%;
+}
+
+.social:hover {
+  transform: translate(0, -10%);
 }

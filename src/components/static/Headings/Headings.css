@@ -1,0 +1,10 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.heading_container {
+  font-style: normal;
+  text-transform: capitalize;
+  color: #035755;
+  margin-bottom: 2.5vh;
+}

@@ -11,22 +11,23 @@
 .si_center-img {
   position: absolute;
   margin: auto;
-  width: 57%;
+  margin-left: -4vh;
+  width: 65%;
   object-fit: contain;
 }
 .si_left-img {
   position: absolute;
   margin: auto;
-  width: 9.4%;
+  width: 8.9%;
   object-fit: contain;
-  margin-left: 5vw;
-  margin-top: 54vh;
+  margin-left: 4vw;
+  margin-top: 64vh;
 }
 .si_right-img {
   position: absolute;
   margin: auto;
-  width: 9.4%;
+  width: 10%;
   object-fit: contain;
   margin-left: 85vw;
-  margin-top: 77vh;
+  margin-top: 87vh;
 }

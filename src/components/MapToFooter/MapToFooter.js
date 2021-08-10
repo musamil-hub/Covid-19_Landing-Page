@@ -11,8 +11,20 @@ const MapToFooter = () => {
       <Map />
       <Subscribe />
       <Footer />
-      <img src={Path1} className='footer_path1' width='7.78%' />
-      <img src={Path2} className='footer_path2' width='9.5%' />
+      <img
+        src={Path1}
+        className='footer_path1'
+        width='7.78%'
+        data-aos='fade-up'
+        data-aos-anchor-placement='center-bottom'
+      />
+      <img
+        src={Path2}
+        className='footer_path2'
+        width='9.5%'
+        data-aos='fade-up'
+        data-aos-anchor-placement='center-bottom'
+      />
     </div>
   );
 };

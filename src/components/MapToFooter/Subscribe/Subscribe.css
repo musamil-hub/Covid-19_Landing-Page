@@ -52,7 +52,9 @@
 .input_sub:active {
   border: none;
 }
-
+input:focus {
+  outline: none;
+}
 .button_sub {
   border: none;
   position: absolute;
@@ -60,7 +62,7 @@
   height: 4.5vw;
   background: #f44a45;
   border-radius: 157px;
-
+  cursor: pointer;
   font-style: normal;
   font-weight: 500;
   font-size: 1.4vmax;

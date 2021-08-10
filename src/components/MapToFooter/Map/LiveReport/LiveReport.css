@@ -9,9 +9,9 @@
 .lr_heading {
   display: flex;
   margin-bottom: 2vh;
-  /* border: 1px solid black; */
 }
 .pagination_button {
+  /* border: 1px solid black; */
   margin: auto;
   display: flex;
   justify-content: space-between;
@@ -47,7 +47,7 @@
 .table_list {
   /* border: 1px solid rgb(10, 10, 10); */
   line-height: 3vmax;
-  width: 100%;
+  width: 24vw;
 }
 .table_img {
   padding-top: 1vh;

@@ -4,6 +4,7 @@
 }
 .cg_containers {
   width: 98.7vw;
+  background: #fff;
   height: 100vh;
   /* border: 1px solid black; */
 }
