@@ -5,22 +5,22 @@
 
 .hero_containers {
   background: linear-gradient(360deg, #ffffff -4.58%, #ffffff 102.22%);
-  height: 100vh;
-  border-bottom: 0.1vh solid black;
-  margin: 0;
-  padding-top: 1.5vh;
+  /* border: 1px solid black; */
+  height: 600px;
+  position: relative;
+  /* padding-top: 30px; */
 }
 
-.Illustration {
-  /* position: relative; */
+/* .Illustration {
+  border: 1px solid black;
   margin-left: auto;
-  width: 50vw;
-  height: 83vh;
+  width: 790px;
+  height: 550px;
   background-image: url('../../images/HeroPage/Illustration.png');
   background-repeat: no-repeat;
-  background-size: 50vw 83vh;
+  background-size: 790px 550px;
   background-position-x: center;
-}
+} */
 
 /* @media all and (max-width: 1200px) {
   .Illustration {

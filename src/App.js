@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import './App.css';
 import HeroPage from './components/HeroPage/HeroPage';
 import AboutUs from './components/AboutUs/AboutUs';
 import Contagion from './components/Contagion/Contagion';
@@ -12,7 +13,7 @@ import datas from './Data/datas.json';
 function App() {
   AOS.init({ duration: 1200 });
   return (
-    <div>
+    <div className='app'>
       <NavBar />
       <HeroPage />
       <AboutUs />

@@ -1,58 +1,65 @@
-@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,400;0,700;0,900;1,400;1,500;1,700;1,900&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Domine:wght@400;500;600;700&display=swap');
-
 * {
   padding: 0;
-  box-sizing: content-box;
 }
 .hero_contanier {
   position: absolute;
   margin: 0;
   width: 98.7vw;
 }
+
+.Illustration {
+  margin-top: -440px;
+  margin-left: auto;
+  margin-right: -150px;
+  width: 730px;
+  height: 575px;
+  background-image: url('../../images/HeroPage/Illustration.png');
+  background-repeat: no-repeat;
+  background-size: 730px;
+  background-position-x: center;
+}
+
 .hero_çontents {
-  width: 82vw;
   margin: auto;
-  /* border: 1px solid black; */
+  width: 1050px;
 }
 .hero_çontent {
-  /* border: 1px solid rgb(9, 187, 89); */
-  margin-top: 21vh;
-  width: 37vw;
+  /* border: 1px solid black; */
+  margin-top: 155px;
+  width: 500px;
 }
 
 .hero_content_1 {
-  position: relative;
   font-family: 'Red Hat Display', sans-serif;
   font-style: normal;
   font-weight: bold;
-  font-size: 2.8vmax;
-  line-height: 8vh;
+  font-size: 2.4rem;
+  line-height: 50.8px;
   text-transform: capitalize;
   color: #035755;
-  margin-bottom: 4vh;
+  margin-bottom: 10px;
 }
 .hero_content_1 span {
   font-weight: bold;
-  font-size: 2vmax;
-  color: #f58482;
+  font-size: 1.8rem;
+  color: #fa5652;
   text-transform: capitalize;
-  -webkit-text-stroke: 0.1vw #fa5652;
+  /* -webkit-text-stroke: 1px #fa5652; */
 }
-.hero_content_1 span::before {
+/* .hero_content_1 span::before {
   content: attr(data-text);
   position: absolute;
   color: #fa5652;
   width: 0;
-  height: 8vh;
+  top: 10px;
+  height: 50.8px;
   -webkit-text-stroke: 0vw #f58482;
-  /* border-right: 3px solid #fa5652; */
+  border-right: 3px solid #fa5652;
   overflow: hidden;
   animation: animate 6s linear infinite;
-}
+} */
 
-@keyframes animate {
+/* @keyframes animate {
   0%,
   10%,
   20% {
@@ -61,27 +68,24 @@
   100% {
     width: 40%;
   }
-}
+} */
 
 .hero_content_2 {
   font-style: normal;
   font-weight: 600;
-  font-size: 1.2vmax;
-  line-height: 5vh;
-  margin-bottom: 4vw;
-
+  font-size: 1rem;
+  line-height: 30px;
   text-transform: capitalize;
-
   color: #4b4f51;
+  margin-bottom: 30px;
 }
 
 .hero_button1 {
-  width: 13.2vw;
-  height: 8vh;
-  /* font-family: 'Domine', serif; */
+  width: 170px;
+  height: 50.8px;
   font-style: normal;
   font-weight: 600;
-  font-size: 1.1vmax;
+  font-size: 0.95rem;
   text-transform: capitalize;
   color: #ffffff;
   background: #fb4c47;

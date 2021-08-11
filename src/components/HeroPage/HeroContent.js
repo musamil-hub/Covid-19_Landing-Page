@@ -17,8 +17,8 @@ const HeroContent = () => {
           </p>
           <button className='hero_button1'>Let Us Help</button>
         </div>
+        <div className='Illustration' />
       </div>
-      {/* <div className='Illustration' /> */}
     </div>
   );
 };

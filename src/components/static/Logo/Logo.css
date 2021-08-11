@@ -1,20 +1,28 @@
 .logo {
-  margin-top: 2vh;
   display: flex;
+  margin: auto;
 }
 
 .logo_image {
   object-fit: cover;
-  width: 3.25vw;
+  width: 45px;
 }
 
 .logo_title {
-  margin: auto 1vw;
+  margin: auto 10px;
   font-family: 'Red Hat Display', sans-serif;
   font-style: normal;
   font-weight: bolder;
-  font-size: 1vmax;
+  font-size: 0.9rem;
   text-transform: uppercase;
 
   color: #035755;
+}
+
+@media all and (max-width: 600px) {
+  .logo_title {
+    position: absolute;
+    margin-left: 55px;
+    margin-top: 12px;
+  }
 }
