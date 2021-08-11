@@ -18,7 +18,7 @@ function App() {
       <AboutUs />
       <Contagion />
       <Symptomps />
-      <WeDo data={datas.wedo} />
+      <WeDo content={datas.wedo.wedocontent} heading={datas.wedo.wedoHeading} />
       <MapToFooter />
     </div>
   );

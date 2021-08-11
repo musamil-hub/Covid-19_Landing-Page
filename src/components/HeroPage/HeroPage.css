@@ -14,11 +14,11 @@
 .Illustration {
   /* position: relative; */
   margin-left: auto;
-  width: 55vw;
+  width: 50vw;
   height: 83vh;
   background-image: url('../../images/HeroPage/Illustration.png');
   background-repeat: no-repeat;
-  background-size: 55vw 83vh;
+  background-size: 50vw 83vh;
   background-position-x: center;
 }
 

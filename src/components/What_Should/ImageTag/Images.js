@@ -1,10 +1,9 @@
 import React from 'react';
 import './Image.css';
-// import {  } from "../../../images";
+
 const Images = ({ images, onIcon, onLeft, count }) => {
   const imgs = onIcon ? false : true;
   const marginLeft = onLeft ? '-.8vw' : '6vw';
-  console.log(images);
   return (
     <>
       {imgs && (

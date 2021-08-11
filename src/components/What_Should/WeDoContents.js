@@ -1,6 +1,6 @@
 import React from 'react';
-
 import './WeDoContents.css';
+
 import Images from './ImageTag/Images';
 import Headings from '../static/Headings/Headings';
 import Paragraph from '../static/Paragraph/Paragraph';
@@ -43,7 +43,7 @@ const WeDoContents = ({ data, index }) => {
           <div className='wc_contents2'>
             <Images images={data.datas.images} onLeft />
           </div>
-          <div className='wc_contents1'>
+          <div className='wc_contents1' style={{ marginLeft: '-2vw' }}>
             <Images count={data.count} onIcon count={data.count} />
             <div className='wc_content2' style={{ width: '32vw' }}>
               <Headings heading={data.datas.title} Left small normal />

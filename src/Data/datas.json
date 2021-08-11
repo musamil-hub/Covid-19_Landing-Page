@@ -1,32 +1,39 @@
 {
-  "wedo": [
-    {
-      "title": "wear masks",
-      "para1": "Continually seize impactful vortals rather than future-proof supply chains. Uniquely exploit emerging niches via fully tested",
-      "para2": "meta-services. Competently pursue standards compliant leadership skills vis-a-vis pandemic 'outside the box' thinking. Objectively",
-      "images": "https://github.com/musamil-hub/Covid-19_Landing-Page/blob/main/src/images/WeDo/MaskGirl_1.png?raw=true",
-      "paraWidth": "30vw"
+  "wedo": {
+    "wedoHeading": {
+      "title": "Covid-19",
+      "heading": "What should we do",
+      "paragraph": "Corona viruses are a type of virus. There are many different kinds, and some cause disease. A newly identified type has caused"
     },
-    {
-      "title": "Wash Your Hands",
-      "para1": "Continually seize impactful vortals rather than future-proof supply chains. Uniquely exploit emerging niches via fully tested meta-services. Competently pursue standards",
-      "para2": "compliant leadership skills vis-a-vis pandemic 'outside the box' thinking. Objectively Continually seize impactful vortals",
-      "images": "https://github.com/musamil-hub/Covid-19_Landing-Page/blob/main/src/images/WeDo/MaskGirl_2.png?raw=true",
-      "paraWidth": "28vw"
-    },
-    {
-      "title": "Use nose -  rag",
-      "para1": "Continually seize impactful vortals rather than future-proof supply chains. Uniquely exploit emerging niches via fully tested ",
-      "para2": "meta-services. Competently pursue standards compliant leadership skills vis-a-vis pandemic 'outside the box' thinking. Objectively ",
-      "images": "https://github.com/musamil-hub/Covid-19_Landing-Page/blob/main/src/images/WeDo/MaskGirl_3.png?raw=true",
-      "paraWidth": "30vw"
-    },
-    {
-      "title": "Avoid contacts",
-      "para1": "Continually seize impactful vortals rather than future-proof supply chains. Uniquely exploit emerging niches via fully tested ",
-      "para2": "meta-services. Competently pursue standards compliant leadership skills vis-a-vis pandemic ",
-      "images": "https://github.com/musamil-hub/Covid-19_Landing-Page/blob/main/src/images/WeDo/MaskGirl_4.png?raw=true",
-      "paraWidth": "30vw"
-    }
-  ]
+    "wedocontent": [
+      {
+        "title": "wear masks",
+        "para1": "Continually seize impactful vortals rather than future-proof supply chains. Uniquely exploit emerging niches via fully tested",
+        "para2": "meta-services. Competently pursue standards compliant leadership skills vis-a-vis pandemic 'outside the box' thinking. Objectively",
+        "images": "https://github.com/musamil-hub/Covid-19_Landing-Page/blob/main/src/images/WeDo/MaskGirl_1.png?raw=true",
+        "paraWidth": "30vw"
+      },
+      {
+        "title": "Wash Your Hands",
+        "para1": "Continually seize impactful vortals rather than future-proof supply chains. Uniquely exploit emerging niches via fully tested meta-services. Competently pursue standards",
+        "para2": "compliant leadership skills vis-a-vis pandemic 'outside the box' thinking. Objectively Continually seize impactful vortals",
+        "images": "https://github.com/musamil-hub/Covid-19_Landing-Page/blob/main/src/images/WeDo/MaskGirl_2.png?raw=true",
+        "paraWidth": "28vw"
+      },
+      {
+        "title": "Use nose -  rag",
+        "para1": "Continually seize impactful vortals rather than future-proof supply chains. Uniquely exploit emerging niches via fully tested ",
+        "para2": "meta-services. Competently pursue standards compliant leadership skills vis-a-vis pandemic 'outside the box' thinking. Objectively ",
+        "images": "https://github.com/musamil-hub/Covid-19_Landing-Page/blob/main/src/images/WeDo/MaskGirl_3.png?raw=true",
+        "paraWidth": "30vw"
+      },
+      {
+        "title": "Avoid contacts",
+        "para1": "Continually seize impactful vortals rather than future-proof supply chains. Uniquely exploit emerging niches via fully tested ",
+        "para2": "meta-services. Competently pursue standards compliant leadership skills vis-a-vis pandemic ",
+        "images": "https://github.com/musamil-hub/Covid-19_Landing-Page/blob/main/src/images/WeDo/MaskGirl_4.png?raw=true",
+        "paraWidth": "30vw"
+      }
+    ]
+  }
 }

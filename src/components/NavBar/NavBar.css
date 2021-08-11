@@ -26,7 +26,6 @@ a {
 nav {
   padding-top: 3vh;
   position: relative;
-  /* border: 1px solid black; */
   display: flex;
   width: 82vw;
   margin: auto;
@@ -60,7 +59,7 @@ nav {
 nav .nav-links {
   display: flex;
   justify-content: space-between;
-  width: 42vw;
+  width: 41vw;
 }
 
 nav .nav-links a:hover {
@@ -70,7 +69,7 @@ nav .nav-links a:hover {
   /* border-bottom-left-radius: 50%;
   border-bottom-right-radius: 50%; */
   /* border-left-width: 1px; */
-  border-image: url(https://www.w3schools.com/cssref/border.png) 30 stretch;
+  /* border-image: url(https://www.w3schools.com/cssref/border.png) 30 stretch; */
 }
 nav .nav-links a:active {
   color: #df6951;
@@ -99,7 +98,7 @@ nav .burger {
   font-size: 0.9vmax;
   color: #ff383d;
   /* margin-left: -1vw; */
-  margin-right: 2.5vw;
+  margin-right: 2.1vw;
 }
 
 .nav_button:hover {

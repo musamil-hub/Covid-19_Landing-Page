@@ -1,20 +1,20 @@
 .wc_container {
   margin: auto;
-  width: 82vw;
+  width: 78vw;
   height: 63vh;
   display: flex;
   margin-top: -5vh;
 }
 .wc_contents1 {
-  width: 45vw;
+  width: 39vw;
   display: flex;
+  /* border: 1px solid black; */
 }
 .wc_contents2 {
-  width: 40vw;
+  width: 39vw;
 }
 
 .wc_content2 {
-  /* border: 1px solid black; */
   margin-top: 17.5vh;
   padding-left: 1.2vw;
 }
